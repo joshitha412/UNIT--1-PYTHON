@@ -1,0 +1,210 @@
+score = 0
+print("Python MCQ Test\n")
+# Question 1
+print("1. What is the output of print(10 + 5)?")
+print("A) 105")
+print("B) 15")
+print("C) 10")
+print("D) Error")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+# Question 2
+print("\n2. Which data type is used to store text?")
+print("A) int")
+print("B) float")
+print("C) str")
+print("D) char")
+ans = input("Enter your answer: ")
+if ans == "C" or ans == "c":
+    score += 1
+# Question 3
+print("\n3. Which function is used to take input from user?")
+print("A) print()")
+print("B) input()")
+print("C) read()")
+print("D) scan()")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+# Question 4
+print("\n4. What is the output of print(5 * 2)?")
+print("A) 7")
+print("B) 52")
+print("C) 10")
+print("D) Error")
+ans = input("Enter your answer: ")
+if ans == "C" or ans == "c":
+    score += 1
+# Question 5
+print("\n5. What is the output of print(2** 2)?")
+print("A) 2")
+print("B) 4")
+print("C) 4")
+print("D) 8")
+
+if ans == "C" or ans == "c":
+    score += 1
+# Question 6
+print("\n6. Which keyword is used to define a function in Python?")
+print("A) function")
+print("B) def")
+print("C) fun")
+print("D) define")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+
+
+# Question 7
+print("\n7. What is the output of print(10 // 3)?")
+print("A) 3")
+print("B) 3.3")
+print("C) 1")
+print("D) 0")
+ans = input("Enter your answer: ")
+if ans == "A" or ans == "a":
+    score += 1
+
+
+# Question 8
+print("\n8. Which symbol is used for comments in Python?")
+print("A) //")
+print("B) <!-- -->")
+print("C) #")
+print("D) /* */")
+ans = input("Enter your answer: ")
+if ans == "C" or ans == "c":
+    score += 1
+
+
+# Question 9
+print("\n9. What is the output of print(type(5))?")
+print("A) <class 'int'>")
+print("B) <class 'float'>")
+print("C) <class 'str'>")
+print("D) Error")
+ans = input("Enter your answer: ")
+if ans == "A" or ans == "a":
+    score += 1
+
+
+# Question 10
+print("\n10. Which loop is used to repeat a block of code?")
+print("A) if")
+print("B) while")
+print("C) switch")
+print("D) break")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+# Question 11
+print("\n11. What is the output of print(3 + 2 * 2)?")
+print("A) 10")
+print("B) 7")
+print("C) 8")
+print("D) 9")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+
+
+# Question 12
+print("\n12. Which of the following is a valid variable name?")
+print("A) 2num")
+print("B) num-1")
+print("C) num_1")
+print("D) num 1")
+ans = input("Enter your answer: ")
+if ans == "C" or ans == "c":
+    score += 1
+
+
+# Question 13
+print("\n13. What is the output of print(9 % 2)?")
+print("A) 1")
+print("B) 0")
+print("C) 2")
+print("D) 9")
+ans = input("Enter your answer: ")
+if ans == "A" or ans == "a":
+    score += 1
+
+
+# Question 14
+print("\n14. Which data type is used to store decimal values?")
+print("A) int")
+print("B) float")
+print("C) str")
+print("D) bool")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+
+
+# Question 15
+print("\n15. What is the output of print(len('Python'))?")
+print("A) 5")
+print("B) 6")
+print("C) 7")
+print("D) Error")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+
+
+# Question 16
+print("\n16. Which operator is used for exponentiation?")
+print("A) ^")
+print("B) **")
+print("C) //")
+print("D) %")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+
+
+# Question 17
+print("\n17. What is the output of print(10 == 10)?")
+print("A) True")
+print("B) False")
+print("C) 10")
+print("D) Error")
+ans = input("Enter your answer: ")
+if ans == "A" or ans == "a":
+    score += 1
+
+
+# Question 18
+print("\n18. Which keyword is used to exit a loop?")
+print("A) stop")
+print("B) exit")
+print("C) break")
+print("D) end")
+ans = input("Enter your answer: ")
+if ans == "C" or ans == "c":
+    score += 1
+
+
+# Question 19
+print("\n19. What is the output of print(bool(0))?")
+print("A) True")
+print("B) False")
+print("C) 0")
+print("D) Error")
+ans = input("Enter your answer: ")
+if ans == "B" or ans == "b":
+    score += 1
+
+
+# Question 20
+print("\n20. Which function is used to display output?")
+print("A) input()")
+print("B) display()")
+print("C) show()")
+print("D) print()")
+ans = input("Enter your answer: ")
+if ans == "D" or ans == "d":
+    score += 1
+print("\nYour Total Score =", score, "/20")
+print("Thank you for attending the test 👍")
